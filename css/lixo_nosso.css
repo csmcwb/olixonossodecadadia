@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.3em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em    ;
+}
+
+/*  ---//---VERIFICAR---//--- */
+header{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    text-align: center;
+    line-height: 5vh;
+}
+
+.page1{
+    background-image: url(../img/garbage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:auto ;
+}
+
+.page2{
+    /*background-image: url(../img/2180413394.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;*/
+    background-color: darkgray;
+    display: block;
+    text-align: center;
+}
+
+.page3{
+    background-image: url(../img/trash.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+}
+
+.page4{
+    background-color: #00ffae;
+}
+
+.page5{
+    background-color: #06070e;
+    color: aliceblue;
+}
+
+.interface{
+    height: 80vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    position: sticky;
+    top: 0;
+    left: 0;
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
