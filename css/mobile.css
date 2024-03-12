@@ -1,12 +1,12 @@
 @media screen and (max-width: 768px ){
 
-    /* iframe{
+    iframe{
         width: 100vw;
         height: 34vh;
         margin-top: 13vh;
-     } */
+     }
 
-     .container{max-width: 700px;}
+/*      .container{max-width: 700px;}
 
      .div-video{
         width: 100%;
@@ -23,4 +23,4 @@
         border-radius: 10px;
      }
 
-}
+} */
