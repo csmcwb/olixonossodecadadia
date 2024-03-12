@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px ){
 
     iframe{
-        width: 100vw;
+        width: 50vw;
         height: 34vh;
         margin-top: 26vh;
      }
