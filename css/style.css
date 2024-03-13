@@ -21,6 +21,7 @@ section{
     align-items: center;
     justify-content: center;
     color: #fff;
+    overflow-y: hidden;
 }
 
 .page1{
@@ -32,19 +33,37 @@ section{
 
 .page2{
     background-color: #3772ff;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+    width: 80%;
+}
+
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2em;
+}
+
+.text-container{
+    text-align: justify;
+    width: 80%;
+    overflow: auto;
+}
+
+h2{
     text-align: center;
 }
 
-iframe{
-    width: 90vw;
-    height: 80vh;
-    padding: 20px;
-}
-
-.texto{
-    padding: 10px;
-}
 .page3{
     background-image: url(../img/trash.jpg);
     background-repeat: no-repeat;
