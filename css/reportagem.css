@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cabecalho{
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+}
+
+.apresentacao{
+    /* background-color: #eee; */
+    height: 15vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.materias{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 40px;    
+    text-decoration: none;
+}
+
+.txt-img{
+    height: 300px;
+    width: 40%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#texto-1{
+    background-image: url("../img/texto_1.jpg");
+}
+
+footer{
+    margin-top: auto;
+    color: white;
+    background-color: rgb(60, 141, 60);
+    padding: 30px;
+    text-align: center;
+    border-top: 3px solid rgb(18, 82, 18);
+}
