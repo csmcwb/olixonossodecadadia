@@ -3,57 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mobile.css">
     <title>O Lixo Nosso de Cada Dia</title>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
 <body>
-    <div class="interface">
-        <section class="page1">
+
+    <!-- Cabeçalho -->
+    <header>
+        <img class="cabecalho" src="./img/titulo_neve.png" alt="Documentário O Lixo Nosso de Cada Dia">
+    </header>
+    
+    <!-- Apresentação -->
+    <section class="apresentacao">
+        <h1>(Exemplo de Texto) Documentário Filmado em Foz do Iguaçu-PR</h1>
+        <p>Breve descrição sobre o documentário e seus objetivos</p>
+    </section>
+    
+    <!-- Matérias -->
+    <main class="container">
+        <section class="materias">
+
+            <div class="grade">
+                <div class="txt-img" id="texto-1" onclick="window.location='reportagem.html';">   </div>
+                <!-- <img src="./img/texto_1.jpg" alt="lixao_a_ceu_aberto"> -->
+                <h2> <a href="reportagem.html"> Texto 1 </a></h2>
+                <p> <a href="reportagem.html"> Lorem Ipsum is simply </a></p>
+            </div>
+
+            <div class="grade">
+                <!-- <img src="./img/texto_2.jpg" alt="caminho_de_lixo"> -->
+                <div class="txt-img" id="texto-2" onclick="window.location='reportagem.html';"></div>
+                <h2> <a href="reportagem.html"> Texto 2 </a></h2>
+                <p> <a href="reportagem.html"> Lorem ipsum dolor sit amet </a></p>
+            </div>
+
+            <div class="grade">
+                <!-- <img src="./img/texto_3.jpg" alt="caminho_de_lixo"> -->
+                <div class="txt-img" id="texto-3" onclick="window.location='reportagem.html';"></div>
+                <h2> <a href="reportagem.html"> Texto 3 </a></h2>
+                <p> <a href="reportagem.html">Texto texto texto</a></p>
+            </div>
+
+            <div class="grade">
+                <!-- <img src="./img/texto_4.jpg" alt="caminho_de_lixo"> -->
+                <div class="txt-img" id="texto-4" onclick="window.location='reportagem.html';"></div>
+                <h2> <a href="reportagem.html"> Texto 4 </a></h2>
+                <p> <a href="reportagem.html"> ui eligendi quisquam</a></p>
+            </div>
+
+            <div class="grade">
+                <!-- <img src="./img/texto_5.jpg" alt="caminho_de_lixo"> -->
+                <div class="txt-img" id="texto-5" onclick="window.location='reportagem.html';"></div>
+                <h2> <a href="reportagem.html"> Texto 5 </a></h2>
+                <p> <a href="reportagem.html">Ut repellendus illo non<a href="reportagem.html"></a></p>
+            </div>
+
+            <div class="grade">
+                <!-- <img src="./img/texto_6.jpg" alt="caminho_de_lixo"> -->
+                <div class="txt-img" id="texto-6" onclick="window.location='reportagem.html';"></div>
+                <h2> <a href="reportagem.html"> Texto 6 </a></h2>
+                <p> <a href="reportagem.html"> In neque ipsum nam molestiae </a></p>
+            </div>
             
         </section>
-      
-        <section class="page2">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/u8GC4rXCw6E?si=hBsBt8sJOSVlM6xM" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-                </iframe>
-            </div>
-            <div class="text-container">
-                <h2>Título do Texto Genérico</h2><br>
-                <h3 class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magni 
-                    impedit animi iste eius reiciendis! Nihil odio aspernatur ipsum quo 
-                    inventore in similique reiciendis laudantium earum ratione, amet quis 
-                    magnam. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magni 
-                    impedit animi iste eius reiciendis! Nihil odio aspernatur ipsum quo 
-                    inventore in similique reiciendis laudantium earum ratione, amet quis 
-                    magnam. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magni 
-                    impedit animi iste eius reiciendis! Nihil odio aspernatur ipsum quo 
-                    inventore in similique reiciendis laudantium earum ratione, amet quis 
-                    magnam. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magni 
-                    impedit animi iste eius reiciendis! Nihil odio aspernatur ipsum quo 
-                    inventore in similique reiciendis laudantium earum ratione, amet quis 
-                    magnam.
-                </h3><br>
-            </div>
-        </section>
-
-        <section class="page3">
-            <h1>Pagina 3</h1>
-        </section>
-            
-        <section class="page4">
-            <h1>Pagina 4</h1>
-        </section>
-        
-        <section class="page5">
-            <h1>Pagina 5</h1>
-        </section>
-
-    </div>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>
+            <span> texto do rodapé - elenco - email de contato</span>
+        </p>
+    </footer>
 </body>
-  
+
 </html>
+
+
+
